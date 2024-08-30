@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="web-media.css">
+</head>
+<body>
+    <!---------Nav Bar Here-->
+
+    <nav>
+ 
+        <div class="logo-box">
+            <img src="images/logo-real.png" alt="">
+        </div>
+       <div class="nav-items">
+         <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+         </ul>
+       </div>
+       <div class="social-box">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+       </div>
+        <i class="fa-solid fa-bars" id="opener"></i>
+        <i class="fa-solid fa-x" id="closer"></i>
+    </nav>
+
+    <nav class="nav-2" id="open">
+       <div class="nav-items-1">
+         <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+         </ul>
+       </div>
+       <div class="social-box-1">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+       </div>
+    </nav>
+ <!------Ends Here-->
+<!----Section one of the website-->
+ 
+<section class="first">
+
+<div class="container">
+
+    <div class="description">
+        <h1>HEL<span style="color:#E85C0D">L</span>O WOR<span style="color:#E85C0D;">L</span>D!</h1>
+        <h2 class="magic">Welcome To <span style="color: #E85C0D;">WPW</span> Artisan</h2>
+        <p>
+            My name is sohaib ahmed i am here to <br>
+            shock the world with my innovations
+        </p>
+        <div class="buttons">
+            <button>Hire Me</button>
+            <button onclick="window.location.href='#test';" style="transition: scroll 0.5s ease;">Read More</button>
+        </div>
+    </div>
+
+    
+    <div class="profile">
+      <img src="images/high-level.png" alt="">
+    </div>
+
+</div>
+
+
+</section>
+
+<!---------ends here-->
+
+
+
+<!--------second sectin starts here-->
+ 
+
+<section class="test" id="test">
+
+ 
+<div class="container-2">
+
+
+    <div class="description-2">
+      <h2>Welcome To <span style="color: #E85C0D;">  WPW ARTISAN </span> </h2>
+      <h4>myself sohaib ahmed i am a web developer with three years of experience
+    in both custom and wordpress web development making  a vast varities of website
+    hope to move with you together towards the project</h4>
+    <button>Hire Me</button>
+    </div>
+
+    <div class="profile-2">
+     <img src="images/test-imae-removebg-preview.png" alt="">
+    </div>
+
+
+</div>
+
+
+
+</section>
+
+<!----------ends ehre-->
+
+<!-----------thrid section-->
+
+<section class="new">
+
+<div class="container-3">
+
+    <div class="description-3">
+        <h2><span style="color: #E85C0D;">S</span>ervices By <span style="color: #E85C0D;">WPW </span> ARTISAN</h2>
+        <p>
+            We specialize in delivering top-notch web development and web designing services, tailored 
+            to meet the unique needs of our clients. Our expertise also extends to theme customization, 
+            ensuring that every aspect of your website reflects your vision and brand identity
+        </p>
+    </div>
+
+    <div class="profile-3">
+        <img src="images/services-new-removebg-preview.png" alt="oh my god">
+    </div>
+
+</div>
+
+
+<div class="services">
+
+
+    <div class="service-1" id="service">
+
+        <div class="upper-image">
+          <img src="images/developer-removebg-preview.png" alt="">
+        </div>
+
+        <div class="description-a">
+            <h4>Wordpress Development</h4>
+            <p>
+                We offer professional WordPress development services designed to bring your online 
+                vision to life. Whether you're looking to build a brand-new website or enhance an 
+                existing one, our expertise covers all aspects of WordPress development. 
+            </p>
+        </div>
+
+    </div>
+
+<div class="service-2" id="service">
+
+    <div class="upper-image-1">
+        <img src="images/developer-2-removebg-preview.png" alt="">
+      </div>
+
+      <div class="description-b">
+          <h4>Custom Development</h4>
+          <p>
+            We offer professional custom development services designed to bring your online vision to life. Whether you're looking to build a brand-new application or enhance an existing one, our expertise covers all aspects of custom development.
+            We use modern languages to develop websites.  
+        </p>
+      </div>
+
+
+</div>
+
+<div class="service-3" id="service">
+
+    <div class="upper-image-2">
+        <img src="images/services.png" alt="">
+      </div>
+
+      <div class="description-c">
+          <h4>Theme Customization</h4>
+          <p>
+            We offer professional theme customization services tailored to bring your website vision to life. Whether you need to personalize a new theme or enhance an existing one, our expertise ensures that every aspect of your theme is customized to meet your unique needs.
+          </p>
+      </div>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+<!------------Ends here-->
+
+<section class="feature">
+
+</section>
+
+    <script>
+      const open = document.getElementById('open');
+const opener = document.getElementById('opener');
+const closer = document.getElementById('closer');
+
+opener.addEventListener("click", function () {
+    open.classList.add('open');
+    opener.style.display = "none";
+    closer.style.display = "block";
+});
+
+closer.addEventListener("click", function () {
+    open.classList.remove('open');
+    opener.style.display = "block";
+    closer.style.display = "none";
+});
+
+// Function to check screen size and reset menu visibility
+function checkScreenSize() {
+    if (window.innerWidth > 767) {
+        // Hide the toggler menu and reset icons when the screen is larger than 767px
+        open.classList.remove('open');
+         // Ensure the menu is closed
+        opener.style.display = "none";  // Hide the bars icon
+        closer.style.display = "none";  // Ensure the close icon is hidden
+    } else {
+        // Show the bars icon on smaller screens
+        opener.style.display = "block";
+    }
+}
+
+// Listen for screen resizing
+window.addEventListener('resize', checkScreenSize);
+
+// Initial check in case the screen starts larger than 767px
+checkScreenSize();
+
+document.addEventListener('DOMContentLoaded' , function(){
+
+const testSection = document.querySelector('.test');
+
+const observer = new IntersectionObserver(entries =>{
+   
+    entries.forEach(entry =>{
+        if(entry.isIntersecting){
+            testSection.classList.add('animate');
+            observer.unobserve(testSection);
+        }
+    });
+
+    threshold= 0.7;
+
+});
+
+observer.observe(testSection);
+
+});
+
+
+
+document.addEventListener('DOMContentLoaded' , function(){
+
+const newSection = document.querySelector('.new');
+
+const checker = new IntersectionObserver(entries =>{
+   
+    entries.forEach(entry =>{
+        if(entry.isIntersecting){
+            newSection.classList.add('animation');
+            checker.unobserve(newSection);
+        }
+    });
+
+    threshold= 0.7;
+
+});
+
+checker.observe(newSection);
+
+});
+
+
+
+
+
+
+    </script>
+</body>
+</html>
